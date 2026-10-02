@@ -1,0 +1,1 @@
+console.log(`Total Cost: $${(599 + 295) /100}`);

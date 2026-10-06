@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head></head>
+  <body>
+    <input
+      placeholder="Enter your name"
+      onkeydown="
+        if (event.key === 'Enter') {
+          document.querySelector('p').innerHTML =
+            `Your name is: ${document.querySelector('input').value}`;
+        }
+      "
+    />
+    <button
+      onclick="
+        document.querySelector('p').innerHTML =
+          `Your name is: ${document.querySelector('input').value}`
+      "
+    >
+      Submit
+    </button>
+    <p></p>
+
+    <script></script>
+  </body>
+</html>

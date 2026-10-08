@@ -1,0 +1,9 @@
+.add-to-cart {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 5px 45px;
+  cursor: pointer;
+  border-radius: 50px;
+}

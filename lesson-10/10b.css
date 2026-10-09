@@ -1,0 +1,18 @@
+.request-now {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.schedule-for-later {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+}

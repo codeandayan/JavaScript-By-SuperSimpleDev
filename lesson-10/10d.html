@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="10d.css" />
+  </head>
+  <body>
+    <button
+      class="black-button"
+      onclick="
+        const button = document.querySelector('button');
+        if (!button.classList.contains('grey-button')) {
+          button.classList.add('grey-button');
+        } else {
+          button.classList.remove('grey-button');
+        }
+      "
+    >
+      Gaming
+    </button>
+  </body>
+</html>

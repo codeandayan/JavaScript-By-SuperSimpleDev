@@ -1,0 +1,13 @@
+.black-button {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px 11px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.grey-button {
+  background-color: rgb(230, 230, 230);
+  color: black;
+}

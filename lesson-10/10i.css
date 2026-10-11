@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  font-family: Arial;
+}
+button {
+  font-size: 15px;
+  color: white;
+  background-color: #767373a3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.js-calculation {
+  color: white;
+  font-size: 22px;
+}
+.clear {
+  font-size: 11px;
+}
+.yellow-button {
+  background-color: rgb(236, 144, 38);
+}

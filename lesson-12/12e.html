@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: Arial;
+      }
+      .message {
+        color: rgb(4, 90, 4);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="js-button" onclick="displayMessage()">Add to Cart</button>
+    <p class="js-message message"></p>
+    <script>
+      function displayMessage() {
+        const buttonElement = document.querySelector('.js-button');
+        const messageElement = document.querySelector('.js-message');
+        messageElement.innerHTML = 'Added';
+        setTimeout(function () {
+          messageElement.innerHTML = '';
+        }, 4000);
+      }
+    </script>
+  </body>
+</html>

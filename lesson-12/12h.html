@@ -4,10 +4,13 @@
     <title>App</title>
   </head>
   <body>
+    <button onclick="count++">Add</button>
+    <button onclick="count--">Remove</button>
     <script>
+      let count = 0;
       setInterval(function () {
         if (document.title === 'App') {
-          document.title = '(2) New messages';
+          document.title = `(${count}) New messages`;
         } else {
           document.title = 'App';
         }

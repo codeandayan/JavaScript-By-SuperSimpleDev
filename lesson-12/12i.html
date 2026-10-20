@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>App</title>
+  </head>
+  <body>
+    <button onclick="count++">Add</button>
+    <button onclick="count--">Remove</button>
+    <script>
+      let count = 0;
+      setInterval(function () {
+        if (count <= 0) {
+          document.title = 'App';
+        } else if (document.title === 'App') {
+          document.title = `(${count}) New messages`;
+        } else {
+          document.title = 'App';
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

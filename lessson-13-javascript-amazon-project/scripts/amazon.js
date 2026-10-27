@@ -56,6 +56,8 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   button.addEventListener('click', () => {
     const productId = button.dataset.productId;
 
+    //use document.querySelector
+
     const selected = document.querySelector(
       `.js-quantity-selector-${productId}`,
     );

@@ -65,7 +65,9 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
       `.js-added-to-cart-${productId}`,
     );
     addedMessage.classList.add('product-added');
-    setTimeout();
+    setTimeout(() => {
+      addedMessage.classList.remove('product-added');
+    }, 2000);
 
     let matchingItem;
     cart.forEach((item) => {
